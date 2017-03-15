@@ -2,6 +2,15 @@ library(RJSONIO)
 library(gemtc)
 library(coda)
 
+#' A Cat Function
+#'
+#' This function allows you to express your love of cats.
+#' @param love Do you love cats? Defaults to TRUE.
+#' @keywords cats
+#' @export
+#' @examples
+#' gemtcTest()
+
 gemtcTest <- function() {
 
 params <- fromJSON('
